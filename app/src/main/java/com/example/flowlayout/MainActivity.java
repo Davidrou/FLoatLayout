@@ -1,4 +1,4 @@
-package com.example.floatlayout;
+package com.example.flowlayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 

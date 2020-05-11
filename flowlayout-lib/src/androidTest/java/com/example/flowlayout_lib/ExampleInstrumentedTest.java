@@ -1,4 +1,4 @@
-package com.example.floatlayout_lib;
+package com.example.flowlayout_lib;
 
 import android.content.Context;
 

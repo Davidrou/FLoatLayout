@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.floatlayout_lib.FloatLayout
+    <com.example.flowlayout_lib.FlowLayout
         android:layout_width="wrap_content"
         android:background="@android:color/holo_blue_bright"
         android:padding="10dp"
@@ -130,6 +130,6 @@
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
 
-    </com.example.floatlayout_lib.FloatLayout>
+    </com.example.flowlayout_lib.FlowLayout>
 
 </RelativeLayout>

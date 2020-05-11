@@ -1,4 +1,4 @@
-package com.example.floatlayout_lib;
+package com.example.flowlayout_lib;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -16,21 +16,21 @@ import java.util.ArrayList;
  * 支持删除单个数据
  * 支持右侧对齐
  */
-public class FloatLayout extends ViewGroup {
+public class FlowLayout extends ViewGroup {
     private static final String TAG = "FloatLayout";
     private ArrayList<Integer> lastIndexEveryLine = new ArrayList<>();
     private int lineMargin = 30;
 
 
-    public FloatLayout(Context context) {
+    public FlowLayout(Context context) {
         super(context, null);
     }
 
-    public FloatLayout(Context context, AttributeSet attrs) {
+    public FlowLayout(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
     }
 
-    public FloatLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public FlowLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
