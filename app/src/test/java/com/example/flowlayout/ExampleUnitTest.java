@@ -1,4 +1,4 @@
-package com.example.floatlayout;
+package com.example.flowlayout;
 
 import org.junit.Test;
 
