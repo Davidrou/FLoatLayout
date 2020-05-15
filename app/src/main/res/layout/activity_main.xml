@@ -7,10 +7,12 @@
     tools:context=".MainActivity">
 
     <com.example.flowlayout_lib.FlowLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:background="@android:color/holo_blue_bright"
         android:padding="10dp"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:verticalSpacing="10dp"
+        app:horizationSpacing="30dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -21,90 +23,78 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="JAVA"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Kotlin"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="C++"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Image-Loader"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="JAVA-JAVA"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Kotlin"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="JAVA"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Kotlin"/>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Kotlin"/>
 
@@ -112,21 +102,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="JAVA"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Kotlin"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
             android:background="@drawable/text_bg"
             android:text="Jetpack"/>
 
