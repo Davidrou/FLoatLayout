@@ -110,5 +110,15 @@ public class FlowLayout extends ViewGroup {
         }
     }
 
+    public void setHorizontalSpacing(int horizontalSpacing){
+        mHorizontalSpacing = horizontalSpacing;
+        //requestLayout();是否需要requestLayout
+    }
+
+    public void setVerticalSpacing(int verticalSpacing){
+        mVerticalSpacing = verticalSpacing;
+        //requestLayout();是否需要requestLayout
+    }
+
 
 }
